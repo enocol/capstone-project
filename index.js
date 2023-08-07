@@ -29,7 +29,12 @@ const div3 = document.createElement("div");
 const div4 = document.createElement("div");
 const div5 = document.createElement("div");
 const div6 = document.createElement("div");
-const speakerDivs = document.createElement("div");
+const speakerdiv1 = document.createElement("div");
+const speakerdiv2 = document.createElement("div");
+const speakerdiv3 = document.createElement("div");
+const speakerdiv4 = document.createElement("div");
+const speakerdiv5 = document.createElement("div");
+const speakerdiv6 = document.createElement("div");
 div1.className = "speaker speaker1";
 div2.className = "speaker speaker2";
 div3.className = "speaker speaker3";
@@ -39,12 +44,31 @@ div6.className = "speaker speaker6";
 
 speakers.append(div1, div2, div3, div4, div5, div6);
 const divs = document.querySelectorAll(".speaker");
-for (let nodes of divs) {
-  nodes.append(speakerDivs);
-  nodes.className = "speaker-item";
+
+for (let i = 0; i < divs.length; i += 1) {
+  divs[i].className = `speaker-item speaker${i}`;
 }
 
-console.log(divs);
+const item1 = document.querySelector(".speaker1");
+const item2 = document.querySelector(".speaker2");
+const item3 = document.querySelector(".speaker3");
+const item4 = document.querySelector(".speaker4");
+const item5 = document.querySelector(".speaker5");
+console.log(item5);
+
+const spdiv1 = document.createElement("div");
+const spdiv2 = document.createElement("div");
+const spdiv3 = document.createElement("div");
+const spdiv4 = document.createElement("div");
+const spdiv5 = document.createElement("div");
+
+item1.append(spdiv1);
+item2.append(spdiv2);
+item3.append(spdiv3);
+item4.append(spdiv4);
+item5.append(spdiv5);
+
+const speaker1 = document.querySelector(".speaker1");
 
 const obj = [
   {
