@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "lato", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.logo {
+  display: none;
+}
+
+.banner .banner-list {
+  display: none;
+}
+.hamburger {
+  display: block;
+  padding: 30px 0 0 60px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.navbar-container .menu-list {
+  display: none;
+}
+
+.mobile-menu {
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(10px);
+  padding-top: 30px;
+  transition: all 0.2s ease-in;
+}
+
+.mobile-menu a {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.visible-menu {
+  visibility: visible;
+}
+
+.closebutton {
+  position: absolute;
+  top: 20px;
+  left: 90%;
+}
+
+.section1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 8%;
+  margin-top: 25px;
+  height: auto;
+}
+
+.h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: red;
+  background: transparent;
+  padding: 10px;
+}
+
+.body-container {
+  background-image: url("./images/background/desktop-about-bg_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.heading-paragraph {
+  width: 75%;
+  padding: 10px;
+  color: #515151;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: -0.12px;
+  flex-shrink: 0;
+  margin: 10px;
+  border: 2px solid #fff;
+}
+
+.duration {
+  color: #595959;
+  font-family: "lato", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 0px;
+  letter-spacing: -1.6px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.location {
+  color: #868686;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.section2-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  width: 95%;
+}
+
+.program {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 5px;
+  background-color: #868686;
+  opacity: 0.8;
+}
+
+.program-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.program img {
+  flex: 1;
+}
+
+.program span {
+  flex: 1;
+  flex-basis: 5%;
+  color: #ff5438;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 1000;
+  line-height: 24.975px;
+  letter-spacing: -0.143px;
+}
+
+.program p {
+  flex: 1;
+  flex-basis: 40%;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 10.703px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22.299px;
+  letter-spacing: 0.642px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3b3e45;
+  background-image: url("./images/icons/bg-maze.png");
+}
+
+.section2-container h2 {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  letter-spacing: -0.8px;
+}
+
+.section2-container .join {
+  height: 60px;
+  padding: 10px;
+  background-color: #ff5438;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px;
+  letter-spacing: -0.16px;
+  width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .banner .banner-list {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: end;
+    color: #fff;
+    background-color: #3e3e3e;
+    font-family: "lato", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px 150px 5px 0;
+    height: 30px;
+  }
+  .hamburger {
+    display: none;
+  }
+
+  .navbar .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 150px 5px 150px;
+    background: #fff;
+  }
+
+  .logo {
+    width: 30px;
+    display: block;
+  }
+
+  .banner-list a {
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+  }
+
+  .navbar-container .menu-list {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .cc-campaign {
+    border: 4px solid red;
+    padding: 10px;
+    color: red;
+    background-color: #fff;
+  }
+
+  .navbar-container {
+    padding: 10px;
+  }
+
+  .mobile-menu {
+    visibility: hidden;
+    position: absolute;
+  }
+}
