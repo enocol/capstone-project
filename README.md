@@ -96,7 +96,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-git clone  https://github.com/enocol/capstone.git
+git clone  https://github.com/enocol/capstone-project.git
 
 cd your folder name
 ```
@@ -104,9 +104,11 @@ cd your folder name
 ### Install
 
 Install this project with:
+NA
 
 ```
 npm install
+NA
 ```
 
 ### Usage
@@ -138,7 +140,7 @@ Deploy this project on any websever
 
 - GitHub: [@githubhandle](https://github.com/enocol)
 - link: https://enocol.github.io/
-- link (Loom video of the project): (https://www.loom.com/share/b1ee1c8b25e94384b80e7fec56521117?sid=973cba13-086c-4d1b-b4fe-03d1cc11e9f8)
+- link (Loom video of the project): ()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,7 +174,7 @@ I would like to thank every who continues supporting me.
 
 ACKNOWLEDGEMENTS
 
-Fpr design inspiration, I will like to acknowledge Cindy Shin in Behance.
+F0r design inspiration, I will like to acknowledge Cindy Shin in Behance.
 
 ## 📝 License <a name="license"></a>
 
