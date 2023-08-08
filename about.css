@@ -58,7 +58,7 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  line-height: 28px; /* 140% */
+  line-height: 28px;
   letter-spacing: -0.4px;
 }
 
@@ -153,7 +153,6 @@
   font-weight: 600;
   line-height: 1.5;
   letter-spacing: -0.56px;
-  border: 2px solid red;
 }
 
 .para1 {
