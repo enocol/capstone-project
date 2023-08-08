@@ -75,5 +75,3 @@ item3.append(spdiv3, sp3);
 item4.append(spdiv4, sp4);
 item5.append(spdiv5, sp5);
 item6.append(spdiv6, sp6);
-
-const speaker1 = document.querySelector(".speaker1");

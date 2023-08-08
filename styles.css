@@ -27,17 +27,19 @@
 
 .mobile-menu {
   visibility: hidden;
-  position: absolute;
+  position: fixed;
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   gap: 30px;
   align-items: center;
   top: 0;
   left: 0;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
   padding-top: 30px;
   transition: all 0.2s ease-in;
+  background-color: #868686;
 }
 
 .mobile-menu a {
@@ -205,13 +207,63 @@
 }
 
 .section3 {
-  border: 2px solid blue;
   margin-top: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section3container {
-  border: 2px solid red;
   width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+.name {
+  color: #000;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.3px;
+}
+
+.title {
+  color: #f78c89;
+  font-family: "Lato" sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14.943px;
+  letter-spacing: -0.2px;
+}
+
+.role {
+  color: #000;
+  font-family: "Lato", sans-serif;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17.078px;
+  letter-spacing: -0.45px;
+}
+
+.speaker {
+  display: flex;
+  gap: 30px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.picture {
+  width: 107px;
+  height: 106.399px;
 }
 
 @media screen and (min-width: 768px) {
