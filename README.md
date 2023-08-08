@@ -166,15 +166,9 @@ If you like this project give me a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank every who continues supporting me.
+For design inspiration, I will like to acknowledge Cindy Shin in Behance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-ACKNOWLEDGEMENTS
-
-F0r design inspiration, I will like to acknowledge Cindy Shin in Behance.
 
 ## 📝 License <a name="license"></a>
 
