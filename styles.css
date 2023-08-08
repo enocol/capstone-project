@@ -190,6 +190,14 @@
   background-color: black;
   background-image: url("./images/icons/bg-maze.png");
   height: 600px;
+  justify-content: space-around;
+}
+
+.red-line {
+  width: 40px;
+  border-top: 2px solid red;
+  position: absolute;
+  top: 120%;
 }
 
 .section2-container h2 {
