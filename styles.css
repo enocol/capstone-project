@@ -14,6 +14,7 @@
 .banner .banner-list {
   display: none;
 }
+
 .hamburger {
   display: block;
   padding: 30px 0 0 60px;
@@ -246,7 +247,7 @@
 
 .title {
   color: #f78c89;
-  font-family: "Lato" sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 10px;
   font-style: normal;
   font-weight: 700;
@@ -295,7 +296,7 @@
 
 .h5 {
   color: #fff;
-  font-family: "Lato" sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -324,8 +325,13 @@
     padding: 5px 150px 5px 0;
     height: 30px;
   }
+
   .hamburger {
     display: none;
+  }
+
+  .navbar-container {
+    padding: 10px;
   }
 
   .navbar .navbar-container {
@@ -358,10 +364,6 @@
     padding: 10px;
     color: red;
     background-color: #fff;
-  }
-
-  .navbar-container {
-    padding: 10px;
   }
 
   .mobile-menu {
