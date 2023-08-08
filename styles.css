@@ -76,9 +76,7 @@
 .h1 {
   font-size: 50px;
   font-weight: 1000;
-
   padding: 10px;
-
   background-image: url("./images/background/orangebg.jpg");
   background-size: cover;
   background-clip: padding-box;
