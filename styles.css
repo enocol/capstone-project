@@ -66,7 +66,7 @@
   flex-direction: column;
   padding-left: 10%;
   margin-top: 25px;
-  height: 500px;
+  height: 550px;
 }
 
 .section1-container {
@@ -76,10 +76,14 @@
 .h1 {
   font-size: 50px;
   font-weight: 1000;
-  color: red;
-  background: transparent;
+
   padding: 10px;
-  border: 2px solid red;
+
+  background-image: url("./images/background/orangebg.jpg");
+  background-size: cover;
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .smallheading {
@@ -248,7 +252,7 @@
 .title {
   color: #f78c89;
   font-family: "Lato", sans-serif;
-  font-size: 10px;
+  font-size: 11px;
   font-style: normal;
   font-weight: 700;
   line-height: 14.943px;
@@ -263,6 +267,7 @@
   font-weight: 700;
   line-height: 17.078px;
   letter-spacing: -0.45px;
+  margin-top: 10px;
 }
 
 .speaker {
@@ -366,6 +371,12 @@
     background-color: #fff;
   }
 
+  .cc-campaign a {
+    color: #ff5438;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
   .mobile-menu {
     visibility: hidden;
     position: absolute;
@@ -400,7 +411,6 @@
   }
 
   .uk2032 {
-    border: 1px solid red;
     width: 325px;
     height: 61px;
   }
