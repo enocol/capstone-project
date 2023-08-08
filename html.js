@@ -17,13 +17,6 @@ const div4 = document.createElement("div");
 const div5 = document.createElement("div");
 const div6 = document.createElement("div");
 
-const speakerdiv1 = document.createElement("div");
-const speakerdiv2 = document.createElement("div");
-const speakerdiv3 = document.createElement("div");
-const speakerdiv4 = document.createElement("div");
-const speakerdiv5 = document.createElement("div");
-const speakerdiv6 = document.createElement("div");
-
 const speakers = document.querySelector(".speakers");
 
 speakers.append(div1, div2, div3, div4, div5, div6);
