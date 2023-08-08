@@ -70,16 +70,16 @@
 }
 
 .section1-container {
-  border: 1px solid red;
   width: 100%;
 }
 
 .h1 {
-  font-size: 40px;
-  font-weight: 900;
+  font-size: 50px;
+  font-weight: 1000;
   color: red;
   background: transparent;
   padding: 10px;
+  border: 2px solid red;
 }
 
 .smallheading {
@@ -106,7 +106,7 @@
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 17px;
+  line-height: 20px;
   letter-spacing: -0.12px;
   flex-shrink: 0;
   margin: 10px;
@@ -397,5 +397,11 @@
 
   .section2 {
     height: 500px;
+  }
+
+  .uk2032 {
+    border: 1px solid red;
+    width: 325px;
+    height: 61px;
   }
 }
