@@ -113,7 +113,6 @@ picture5.src = obj.speakers[4].img;
 const img6 = document.querySelector(".image6");
 img6.innerHTML = `<img src="" alt="" class="picture6 picture">`;
 const picture6 = document.querySelector(".picture6");
-console.log("picture6", picture6);
 picture6.src = obj.speakers[5].img;
 
 const content1 = document.querySelector(".content1");
