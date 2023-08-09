@@ -128,44 +128,6 @@
   width: 100%;
 }
 
-.containerdiv3 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  background: #2e2e2e;
-  color: #fff;
-}
-
-.containerdiv4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  height: 150px;
-}
-
-.containerdiv4 p {
-  color: #fff;
-  font-family: "Lato", sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 1.5;
-  letter-spacing: -0.56px;
-}
-
-.para1 {
-  color: #fff;
-  font-family: "Lato", sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 28px;
-  letter-spacing: -0.56px;
-}
-
 @media screen and (min-width: 768px) {
   .containerdiv2 {
     flex-direction: row;
