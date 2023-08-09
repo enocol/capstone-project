@@ -299,6 +299,12 @@
   bottom: 10px;
   border: none;
   border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
 .btnInvisible {
