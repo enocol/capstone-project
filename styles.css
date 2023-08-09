@@ -321,8 +321,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 40px;
+  justify-content: space-around;
   background-color: #414246;
+  height: 200px;
 }
 
 .partners {
@@ -338,7 +339,7 @@
   font-family: "Lato", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 28px;
   letter-spacing: -0.2px;
 }
@@ -354,25 +355,16 @@
 }
 
 .containerdiv3 {
-  display: flex;
+  display: none;
   align-items: center;
   padding: 10px;
   justify-content: center;
-  gap: 50px;
   width: 100%;
 }
 
 .year {
   display: flex;
   align-items: center;
-}
-
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 150px;
-  background-color: #fff;
 }
 
 .main-program {
@@ -385,6 +377,14 @@
 .section4,
 .footer {
   display: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
 @media screen and (min-width: 768px) {
@@ -487,14 +487,18 @@
 
   .containerdiv3 {
     padding: 10px;
-    width: 60%;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    display: flex;
   }
 
   .footer {
-    background-color: #000;
-    color: #fff;
-    display: block;
+    background-color: lightgray;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .section4 {
@@ -503,5 +507,13 @@
 
   .showmore {
     display: none;
+  }
+
+  .partner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
   }
 }
