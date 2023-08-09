@@ -1,15 +1,14 @@
 const speaker = document.querySelectorAll(".speaker");
 const showmorebtn = document.querySelector(".showmore");
-console.log(showmorebtn);
 const itemperload = 2;
-let currentVisible = itemperload;
+const currentVisible = itemperload;
 
-for (let i = 0; i < currentVisible; i++) {
+for (let i = 0; i < currentVisible; i += 1) {
   speaker[i].classList.add("visible");
 }
 
 showmorebtn.addEventListener("click", () => {
-  for (let i = currentVisible; i < currentVisible + itemperload; i++) {
+  for (let i = currentVisible; i < currentVisible + itemperload; i += 1) {
     if (speaker[i]) {
       speaker[i].classList.add("visible");
     }
