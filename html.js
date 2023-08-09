@@ -5,9 +5,13 @@ section3container.className = "section3container";
 const h3 = document.createElement("h3");
 h3.className = "h3";
 const div = document.createElement("div");
-
+const redline = document.createElement("div");
+redline.className = "red-line";
 div.className = "speakers";
-section3container.append(h3);
+const container = document.createElement("div");
+container.className = "container";
+container.append(h3, redline);
+section3container.append(container);
 section3container.append(div);
 
 const div1 = document.createElement("div");
